@@ -1,0 +1,36 @@
+{
+    "name": "constant-case",
+    "version": "1.0.0",
+    "description": "Constant case a string",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -- -R TAP",
+        "test:coverage": "c8 -r json-summary node test_.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/blakeembrey/constant-case.git"
+    },
+    "keywords": [
+        "constant",
+        "case",
+        "upper"
+    ],
+    "author": {
+        "name": "Blake Embrey",
+        "email": "hello@blakeembrey.com",
+        "url": "http://blakeembrey.me"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/blakeembrey/constant-case/issues"
+    },
+    "homepage": "https://github.com/blakeembrey/constant-case",
+    "devDependencies": {
+        "istanbul": "^0.3.0"
+    },
+    "dependencies": {
+        "mocha": "^10.2.0",
+        "snake-case": "^1.0.0"
+    }
+}

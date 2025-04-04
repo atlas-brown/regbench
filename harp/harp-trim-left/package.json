@@ -1,0 +1,45 @@
+{
+    "name": "trim-left",
+    "version": "2.0.0",
+    "description": "Similar to `String#trim()` but removes only whitespace on the left",
+    "license": "MIT",
+    "main": "index.js",
+    "repository": "sindresorhus/trim-left",
+    "funding": "https://github.com/sponsors/sindresorhus",
+    "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "https://sindresorhus.com"
+    },
+    "exports": "./index.js",
+    "engines": {
+        "node": ">=12"
+    },
+    "scripts": {
+        "test": "ava --tap",
+        "test:coverage": "c8 -r json-summary node test_.js"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "trim",
+        "left",
+        "string",
+        "str",
+        "util",
+        "utils",
+        "utility",
+        "whitespace",
+        "space",
+        "remove",
+        "delete"
+    ],
+    "devDependencies": {
+        "ava": "^3.15.0",
+        "xo": "^0.39.1"
+    },
+    "dependencies": {
+        "mocha": "^10.2.0"
+    }
+}

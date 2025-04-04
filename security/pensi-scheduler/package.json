@@ -1,0 +1,52 @@
+{
+    "_from": "pensi-scheduler",
+    "_id": "pensi-scheduler@1.1.2",
+    "_inBundle": false,
+    "_integrity": "sha1-qvido1NfnThPYSw7PTFWwXskhWs=",
+    "_location": "/pensi-scheduler",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "tag",
+        "registry": true,
+        "raw": "pensi-scheduler",
+        "name": "pensi-scheduler",
+        "escapedName": "pensi-scheduler",
+        "rawSpec": "",
+        "saveSpec": null,
+        "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+        "#USER",
+        "/"
+    ],
+    "_resolved": "https://registry.npmjs.org/pensi-scheduler/-/pensi-scheduler-1.1.2.tgz",
+    "_shasum": "aaf89da3535f9d384f612c3b3d3156c17b24856b",
+    "_spec": "pensi-scheduler",
+    "_where": "C:\\node\\NPMInstaller\\node\\oocoderpensi-scheduler",
+    "author": {
+        "name": "Alex R Maldonado",
+        "email": "calidadis@gmail.com"
+    },
+    "bugs": {
+        "url": "https://bitbucket.org/oocoder/pensi-scheduler/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "pensi-scheduler is a simple scheduler to execute recurrent tasks.  You can change the period to adjust the type of recurrence you need.",
+    "engines": {
+        "node": ">=4.2.4"
+    },
+    "homepage": "https://bitbucket.org/oocoder/pensi-scheduler",
+    "license": "MIT",
+    "main": "index.js",
+    "name": "pensi-scheduler",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oocoder/pensi-scheduler.git"
+    },
+    "version": "1.1.3",
+    "scripts": {
+        "test": "node test.js",
+        "test:coverage": "c8 -r json-summary node test_.cjs"
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "longest",
+  "description": "Get the longest item in an array.",
+  "repository": "jonschlinkert/longest",
+  "license": "MIT",
+  "homepage": "https://github.com/jonschlinkert/longest",
+  "authors": [
+    "Jon Schlinkert"
+  ],
+  "main": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.3.0"
+  },
+  "keywords": [
+    "array",
+    "element",
+    "item",
+    "length",
+    "long",
+    "longest"
+  ],
+  "version": "2.0.0",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/longest/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "ignore": [
+    "actual",
+    "bower_components",
+    "fixtures",
+    "node_modules",
+    "temp",
+    "test",
+    "test.js",
+    "tmp"
+  ],
+  "contributors": [
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)",
+    "Kevin Mårtensson (https://github.com/kevva)",
+    "Kyle Mitchell (https://kemitchell.com)",
+    "Shinnosuke Watanabe (https://shinnn.github.io)"
+  ]
+}

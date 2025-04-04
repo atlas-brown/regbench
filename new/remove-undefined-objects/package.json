@@ -1,0 +1,45 @@
+{
+  "name": "remove-undefined-objects",
+  "version": "5.0.0",
+  "description": "Remove undefined properties and empty arrays from an object",
+  "license": "MIT",
+  "author": "Jon Ursenbach <jon@ursenba.ch>",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/readmeio/remove-undefined-objects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/readmeio/remove-undefined-objects/issues"
+  },
+  "scripts": {
+    "build": "tsup",
+    "prebuild": "rm -rf dist/",
+    "prepack": "npm run build",
+    "prettier": "prettier --list-different --write \"./**/**.{js,ts}\"",
+    "test": "vitest run --reporter=tap"
+  },
+  "devDependencies": {
+    "@readme/eslint-config": "^14.0.0",
+    "@vitest/coverage-v8": "^2.0.5",
+    "eslint": "^8.57.0",
+    "prettier": "^3.0.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.1.3",
+    "vitest": "^2.0.5"
+  },
+  "prettier": "@readme/eslint-config/prettier"
+}

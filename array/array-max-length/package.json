@@ -1,0 +1,38 @@
+{
+    "name": "array-max-length",
+    "version": "2.0.0",
+    "description": "Returns a new array with the given maximum length",
+    "license": "MIT",
+    "repository": "gillstrom/array-max-length",
+    "main": "index.js",
+    "author": {
+        "name": "Andreas Gillstr\u00f6m",
+        "email": "andreasgillstrom@gmail.com",
+        "url": "github.com/gillstrom"
+    },
+    "engines": {
+        "node": ">=4"
+    },
+    "scripts": {
+        "test": "ava --tap"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "arr",
+        "array",
+        "length",
+        "list",
+        "max",
+        "maximum",
+        "resize",
+        "shrink",
+        "size",
+        "values"
+    ],
+    "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+    }
+}

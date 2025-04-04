@@ -1,0 +1,60 @@
+{
+    "name": "sponge-case",
+    "version": "2.0.3",
+    "description": "Transform into a string with random capitalization applied",
+    "keywords": [
+        "random",
+        "randomize",
+        "spongebob",
+        "mocking",
+        "capital",
+        "case",
+        "convert",
+        "transform",
+        "capitalize"
+    ],
+    "homepage": "https://github.com/blakeembrey/change-case/tree/master/packages/sponge-case#readme",
+    "bugs": {
+        "url": "https://github.com/blakeembrey/change-case/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/blakeembrey/change-case.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Nate Rabins",
+        "email": "nrabins@gmail.com",
+        "url": "http://rabins.dev"
+    },
+    "exports": {
+        ".": "./dist/index.js"
+    },
+    "main": "./src/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist/"
+    ],
+    "scripts": {
+        "bench": "vitest bench",
+        "build": "ts-scripts build",
+        "format": "ts-scripts format",
+        "prepublishOnly": "npm run build",
+        "specs": "ts-scripts specs",
+        "test": "jest src/test.js"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "jest": "^24.9.0"
+    },
+    "devDependencies": {
+        "jest-tap-reporter": "^1.9.0"
+    },
+    "jest": {
+        "reporters": [
+            "jest-tap-reporter"
+        ]
+    }
+}

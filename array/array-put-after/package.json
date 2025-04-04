@@ -1,0 +1,36 @@
+{
+    "name": "put-after",
+    "version": "2.0.1",
+    "description": "Put an element after another element.",
+    "repository": "https://github.com/Richienb/put-after.git",
+    "author": "Richie Bendall <richiebendall@gmail.com>",
+    "license": "MIT",
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ],
+    "engines": {
+        "node": ">=10"
+    },
+    "scripts": {
+        "test": "ava --tap"
+    },
+    "keywords": [
+        "after",
+        "append",
+        "add",
+        "array",
+        "string",
+        "util"
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "ava": "^3.13.0",
+        "eslint-config-richienb": "^0.5.0",
+        "xo": "^0.35.0"
+    },
+    "xo": {
+        "extends": "richienb"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "trim",
+    "version": "1.0.1",
+    "description": "Trim string whitespace",
+    "license": "MIT",
+    "keywords": [
+        "string",
+        "trim"
+    ],
+    "scripts": {
+        "test": "mocha -R tap"
+    },
+    "author": "TJ Holowaychuk <tj@vision-media.ca>",
+    "devDependencies": {
+        "@semantic-release/changelog": "^6.0.1",
+        "@semantic-release/git": "^10.0.1",
+        "mocha": "^10.0.0",
+        "semantic-release": "^19.0.2",
+        "should": "^13.2.3"
+    },
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Trott/trim.git"
+    },
+    "release": {
+        "branches": [
+            "main"
+        ],
+        "plugins": [
+            "@semantic-release/commit-analyzer",
+            "@semantic-release/release-notes-generator",
+            [
+                "@semantic-release/changelog",
+                {
+                    "changelogFile": "CHANGELOG.md"
+                }
+            ],
+            "@semantic-release/npm",
+            [
+                "@semantic-release/git",
+                {
+                    "assets": [
+                        "CHANGELOG.md",
+                        "package.json"
+                    ],
+                    "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+                }
+            ]
+        ]
+    }
+}

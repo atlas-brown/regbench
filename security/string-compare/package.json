@@ -1,0 +1,15 @@
+{
+    "name": "string-compare",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test",
+        "test:coverage": "c8 -r json-summary node test_.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "tape": "^5.7.4"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "swap-case",
+    "version": "3.0.3",
+    "description": "Transform a string by swapping every character from upper to lower case, or lower to upper case",
+    "keywords": [
+        "swap",
+        "case",
+        "invert",
+        "convert",
+        "transform",
+        "lower",
+        "upper"
+    ],
+    "homepage": "https://github.com/blakeembrey/change-case/tree/master/packages/swap-case#readme",
+    "bugs": {
+        "url": "https://github.com/blakeembrey/change-case/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/blakeembrey/change-case.git"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Blake Embrey",
+        "email": "hello@blakeembrey.com",
+        "url": "http://blakeembrey.me"
+    },
+    "exports": {
+        ".": "./dist/index.js"
+    },
+    "main": "./src/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist/"
+    ],
+    "scripts": {
+        "bench": "vitest bench",
+        "build": "ts-scripts build",
+        "format": "ts-scripts format",
+        "prepublishOnly": "npm run build",
+        "specs": "ts-scripts specs",
+        "test": "jest src/test.js"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "jest": "^29.7.0",
+        "jest-tap-reporter": "^1.9.0",
+        "vitest": "^2.1.2"
+    },
+    "jest": {
+        "reporters": [
+            "jest-tap-reporter"
+        ]
+    }
+}

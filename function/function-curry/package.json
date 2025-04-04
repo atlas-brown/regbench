@@ -1,0 +1,36 @@
+{
+    "name": "just-curry-it",
+    "version": "5.3.0",
+    "description": "return a curried function",
+    "type": "module",
+    "exports": {
+        ".": {
+            "types": "./index.d.ts",
+            "require": "./index.cjs",
+            "import": "./index.mjs"
+        },
+        "./package.json": "./package.json"
+    },
+    "main": "index.cjs",
+    "types": "index.d.ts",
+    "scripts": {
+        "test": "node test.cjs",
+        "build": "rollup -c",
+        "test:coverage": "c8 -r json-summary node test_.cjs"
+    },
+    "repository": "https://github.com/angus-c/just",
+    "keywords": [
+        "function",
+        "curry",
+        "no-dependencies",
+        "just"
+    ],
+    "author": "Angus Croll",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/angus-c/just/issues"
+    },
+    "dependencies": {
+        "tape-catch": "^1.0.6"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "is-positive",
+    "version": "3.1.0",
+    "description": "Check if something is a positive number",
+    "license": "MIT",
+    "repository": "kevva/is-positive",
+    "main": "index.cjs",
+    "type": "module",
+    "author": {
+        "name": "Kevin Martensson",
+        "email": "kevinmartensson@gmail.com",
+        "url": "github.com/kevva"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "scripts": {
+        "test": "ava --tap"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        "number",
+        "positive",
+        "test",
+        "check"
+    ],
+    "devDependencies": {
+        "ava": "*",
+        "xo": "*"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "just-flip",
+    "version": "2.2.0",
+    "description": "flip first two arguments of a function",
+    "main": "index.cjs",
+    "types": "index.d.ts",
+    "module": "index.mjs",
+    "exports": {
+        ".": {
+            "require": "./index.cjs",
+            "types": "./index.d.ts",
+            "default": "./index.mjs"
+        },
+        "./package.json": "./package.json"
+    },
+    "scripts": {
+        "test": "node test.cjs",
+        "build": "rollup -c",
+        "test:coverage": "c8 -r json-summary node test_.cjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/angus-c/just.git"
+    },
+    "keywords": [
+        "function",
+        "no-dependencies",
+        "just",
+        "flip",
+        "arguments"
+    ],
+    "author": "chee",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/angus-c/just/issues"
+    },
+    "dependencies": {
+        "tape-catch": "^1.0.6"
+    }
+}

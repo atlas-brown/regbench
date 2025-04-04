@@ -1,0 +1,17 @@
+{
+    "name": "unique_count_sorted",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js",
+        "test:coverage": "c8 -r json-summary node test_.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "tap": "^18.6.1",
+        "tape-catch": "^1.0.6"
+    }
+}

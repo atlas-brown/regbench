@@ -1,0 +1,31 @@
+{
+    "name": "flatmap-stream",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test:coverage": "c8 -r json-summary node test_.js",
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hugeglass/flatmap-stream.git"
+    },
+    "author": "Antonio Macias",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/hugeglass/flatmap-stream/issues"
+    },
+    "homepage": "https://github.com/hugeglass/flatmap-stream#readme",
+    "dependencies": {
+        "duplexer": "^0.1.2",
+        "from": "^0.1.7",
+        "it-is": "^1.0.3",
+        "map-stream": "^0.0.7",
+        "pause-stream": "^0.0.11",
+        "split": "^1.0.1",
+        "stream-combiner": "^0.2.2",
+        "tape": "^5.7.4",
+        "through": "^2.3.8"
+    }
+}

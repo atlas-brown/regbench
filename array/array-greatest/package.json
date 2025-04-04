@@ -1,0 +1,30 @@
+{
+    "name": "greatest",
+    "main": "index.js",
+    "version": "1.0.2",
+    "description": "Find the largest number in a list",
+    "license": "MIT",
+    "repository": "bendrucker/greatest",
+    "author": {
+        "name": "Ben Drucker",
+        "email": "bvdrucker@gmail.com",
+        "url": "bendrucker.me"
+    },
+    "scripts": {
+        "test": "tape test.js"
+    },
+    "keywords": [
+        "greatest",
+        "number"
+    ],
+    "devDependencies": {
+        "tape": "^4.0.0",
+        "standard": "^4.0.0"
+    },
+    "files": [
+        "index.js"
+    ],
+    "dependencies": {
+        "to-array": "~0.1.4"
+    }
+}

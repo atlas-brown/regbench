@@ -1,0 +1,48 @@
+{
+	"name": "index-to-position",
+	"version": "1.0.0",
+	"description": "Convert a string index to its line and column position",
+	"license": "MIT",
+	"repository": "sindresorhus/index-to-position",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"main": "index.js",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": {
+		"types": "./index.d.ts",
+		"default": "./index.js"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"test": "ava --tap"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"index",
+		"position",
+		"line",
+		"column",
+		"text",
+		"coordinate",
+		"string",
+		"character",
+		"line number",
+		"column number",
+		"location"
+	],
+	"devDependencies": {
+		"ava": "^5.3.1",
+		"typescript": "^5.2.2",
+		"xo": "^0.56.0"
+	}
+}

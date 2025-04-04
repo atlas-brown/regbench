@@ -1,0 +1,21 @@
+{
+    "description": "Merges chronological time-based object streams, using a common key for time.",
+    "homepage": "https://github.com/viriciti/stream-combine#readme",
+    "keywords": [
+        "stream",
+        "combine",
+        "merge"
+    ],
+    "license": "ISC",
+    "main": "index.js",
+    "name": "stream-combine",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/viriciti/stream-combine.git"
+    },
+    "scripts": {
+        "test": "node test.js",
+        "test:coverage": "c8 -r json-summary node test_.cjs"
+    },
+    "version": "2.0.2"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "just-zip-it",
+    "version": "3.2.0",
+    "description": "returns an array of grouped elements, taking n-th element from every given array",
+    "type": "module",
+    "exports": {
+        ".": {
+            "types": "./index.d.ts",
+            "require": "./index.cjs",
+            "import": "./index.mjs"
+        },
+        "./package.json": "./package.json"
+    },
+    "main": "index.cjs",
+    "types": "index.d.ts",
+    "scripts": {
+        "test": "node test.cjs",
+        "build": "rollup -c",
+        "test:coverage": "c8 -r json-summary node test_.cjs"
+    },
+    "repository": "https://github.com/angus-c/just",
+    "keywords": [
+        "array",
+        "zip",
+        "no-dependencies",
+        "just"
+    ],
+    "author": "Kamil Og\u00f3rek",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/angus-c/just/issues"
+    },
+    "dependencies": {
+        "mocha": "^10.2.0",
+        "tape-catch": "^1.0.6"
+    }
+}

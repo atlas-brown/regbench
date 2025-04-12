@@ -1,3 +1,3 @@
 # Regbench
 
-A benchmark suite for component regeneration systems.
+Currently work in progress.

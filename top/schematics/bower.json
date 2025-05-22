@@ -1,0 +1,22 @@
+{
+  "name": "schematics",
+  "description": "Javascript data structure validator",
+  "main": "index.js",
+  "authors": [
+    "Gary Burgess <gary.burgess@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/thisismN/schematics",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "lodash": "^2.4.1"
+  }
+}

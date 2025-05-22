@@ -1,0 +1,59 @@
+{
+	"name": "gulp-filter",
+	"version": "9.0.1",
+	"description": "Filter files in a `vinyl` stream",
+	"license": "MIT",
+	"repository": "sindresorhus/gulp-filter",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"sideEffects": false,
+	"engines": {
+		"node": ">=18"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"gulpplugin",
+		"filter",
+		"ignore",
+		"file",
+		"files",
+		"match",
+		"minimatch",
+		"glob",
+		"globbing",
+		"vinyl"
+	],
+	"dependencies": {
+		"multimatch": "^7.0.0",
+		"plugin-error": "^2.0.1",
+		"slash": "^5.1.0",
+		"streamfilter": "^3.0.0",
+		"to-absolute-glob": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "^5.3.1",
+		"gulp": "^4.0.2",
+		"p-event": "^6.0.0",
+		"vinyl": "^3.0.0",
+		"xo": "^0.56.0"
+	},
+	"peerDependencies": {
+		"gulp": ">=4"
+	},
+	"peerDependenciesMeta": {
+		"gulp": {
+			"optional": true
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+  "name": "gulp-conflict",
+  "version": "0.4.0",
+  "description": "Check if files in stream conflict with those in target dir, with option to use new, keep old, show diff, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slushjs/gulp-conflict"
+  },
+  "keywords": [
+    "gulpplugin",
+    "yeoman",
+    "slush",
+    "dest",
+    "confirm",
+    "ask",
+    "conflict"
+  ],
+  "author": "Joakim Carlstein <joakim@klei.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slushjs/gulp-conflict/issues"
+  },
+  "homepage": "https://github.com/slushjs/gulp-conflict",
+  "dependencies": {
+    "through2": "~0.6.3",
+    "gulp-util": "~3.0.1",
+    "inquirer": "~0.8.0",
+    "diff": "^1.0.8"
+  },
+  "devDependencies": {
+    "chai": "~1.10.0",
+    "mocha": "~2.0.1"
+  }
+}

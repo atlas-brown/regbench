@@ -1,0 +1,30 @@
+{
+  "author": "Thomas Blobaum <tblobaum@gmail.com> (https://github.com/tblobaum/)",
+  "name": "application",
+  "description": "unified http and websocket api",
+  "version": "0.1.4",
+  "homepage": "https://github.com/tblobaum/node-application/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tblobaum/node-application.git"
+  },
+  "scripts": {
+    "test": "tap test/*.test.js"
+  },
+  "dependencies": {
+    "error-page": "0.0.3",
+    "node-static": "~0.5.9",
+    "dnode": "~0.9.11",
+    "cookies": "~0.3.0",
+    "redsess": "0.0.6",
+    "keygrip": "~0.2.0",
+    "templar": "0.0.5",
+    "ejs": "~0.7.1",
+    "formidable": "~1.0.11"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
